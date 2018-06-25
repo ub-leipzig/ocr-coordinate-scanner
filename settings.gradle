@@ -1,0 +1,4 @@
+rootProject.name = 'ocr-coordinate-scanner'
+include ':scanner'
+
+project(':scanner').projectDir = "$rootDir/scanner" as File
